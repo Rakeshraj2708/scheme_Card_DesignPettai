@@ -1,0 +1,44 @@
+.scheme p{
+    font-weight: 500;
+    font-size: 14px;
+    color: #000;
+}
+
+.scheme span{
+    color: #6B7280;
+    font-size: 12px;
+}
+
+.scheme.active p, .scheme.active span{
+    color: #4F46E5;
+}
+
+.values li {
+    margin-bottom: 15px;
+    color: #6B7280;
+    font-size: 12px;
+}
+
+.values span, .scheme{
+    cursor: pointer;
+}
+
+.values li:first-child{
+    font-weight: 600;
+}
+
+.input_form{
+    border-bottom: 1px solid #6B7280;
+    outline: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.check{
+    color: #ececfd;
+}
+
+.check.complete{
+    color: #4F46E5;
+}
